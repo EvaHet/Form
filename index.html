@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/6ffbdd57ee.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="purple">
+        <div class="wrapper">
+            <div class="shadow">
+                <fieldset class="set1">
+                    <h1>Checkout form</h1>
+                </fieldset>
+                <fieldset class="set2">
+                    <input class="name" type="text" name="firstname" placeholder="First name">
+                    <i class="fas fa-user">
+                        <hr noshade class="line"></i>
+                    <input class="lastname" type="text" name="lastname" placeholder="Last name">
+                    <i class="fas fa-user">
+                        <hr noshade class="line"></i>
+                    <br>
+                    <input class="classemail" type="email" name="email-address" placeholder="E-mail">
+                    <i class="fas fa-envelope">
+                        <hr noshade class="line"></i>
+                    <input class="phone" type="tel" name="phone" placeholder="Phone">
+                    <i class="fas fa-phone-alt">
+                        <hr noshade class="line"></i>
+                </fieldset>
+                <fieldset class="set3">
+                    <div class="arrows">
+                        <div class="arrow up"></div>
+                        <div class="arrow down"></div>
+                    </div>
+                    <select name="country" placeholder="Country">
+                        <option value="" disabled selected>Country</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="Ukraine">Ukraine</option>
+                    </select>
+                    <input class="city name" type="text" name="city" placeholder="City">
+                    <input class="post_code" name="post code" placeholder="Post code">
+                    <br>
+                    <input class="address name" type="text" name="address" placeholder="Address">
+                    <br>
+                    <input class="additionalInfo name" type="text" name="comment" placeholder="Additional info">
+                </fieldset>
+                <fieldset class="set4">
+                    <div class="cardtype">
+                        <label for="opt1" class="radio">
+                            <input type="radio" name="rdo" id="opt1" class="hidden" />
+                            <span class="label one"></span>Visa
+                        </label>
+                        <label for="opt2" class="radio">
+                            <input type="radio" name="rdo" id="opt2" class="hidden" />
+                            <span class="label two"></span>MasterCard
+                        </label>
+                        <label for="opt3" class="radio">
+                            <input type="radio" name="rdo" id="opt3" class="hidden" />
+                            <span class="label three"></span>PayPal
+                        </label>
+                    </div>
+                    <input type="text" name="nameOnCard" placeholder="Name on card">
+                    <br>
+                    <input type="number" name="cardNambered" placeholder="Card numberd">
+                    <input type="number" name="cvv2" placeholder="CVV2">
+                    <div class="arrows">
+                        <div class="arrow up dateArrow1"></div>
+                        <div class="arrow down dateArrow2"></div>
+                    </div>
+                    <p class="exp_date">Expiration date
+                        <select class="month" name="month">
+                            <option value="" disabled selected>Month</option>
+                            <option value="">Oct</option>
+                            <option value="">Feb</option>
+                            <option value="">Dec</option>
+                        </select>
+                        <input type="number" name="year" class="year" placeholder="Year">
+                    </p>
+                </fieldset>
+                <fieldset class="set5">
+                    <p><input type="submit" value="Continue" class="button"></p>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
